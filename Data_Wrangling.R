@@ -7,9 +7,7 @@ library(ggmap)
 library(jsonlite)
 library(data.table)
 
-geo_key = {
-  "AIzaSyBQexE"
-  } # Using the personal geo_key API generated from google
+geo_key  # Using the personal geo_key API generated from google
 
 # Taking raw data and converting it into useful format
 data <- fromJSON("Takeout/Location History/Location_History.json")
