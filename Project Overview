@@ -1,0 +1,8 @@
+The aim of the project was to build a recommender engine for the user, to help in decicion making of whether to buy a car or not. 
+The location history data of the user if the input for the algorithm, which undergoes lot of data wrangling before it is subject to analysis. 
+The data dump gives the latitude and longitude coordinates for huge set of timestamps. 
+The first step is to calculate the distance travelled and the velocities associated, between each pair of timestamps. 
+This data is analysed for pattern recognition, which is the most crucial part of the project. The journeys are identified, along with their start and end latitude and longitude coordinates. 
+Once the journeys are identified, similar ones are clustered and the frequently travelled routes are identified. 
+The time consumed in these journeys and thereby the time which would have been saved, if the travel mode was self-owned car, is calculated, thus arriving at the final recommendation whether the user sees benefit in owning a car or not. 
+The R Code for the entire project is shared. 
