@@ -3,9 +3,7 @@ library(ggmap)
 library(ggplot2)
 
 
-geo_key = {
-  "AIzaSyBQexEI0cYZ67jie5EIFnwDXYK0qVik790"
-}
+geo_key # Personal google API is used
 
 register_google(key = geo_key)
 location_data <- read.csv("loc4.csv")
